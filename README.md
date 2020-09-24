@@ -16,14 +16,9 @@ The main goal of our app is to predict if a stock price is about to increase or 
 
 The application is available [here](https://trading-app-simplon.herokuapp.com/). 
 
-
-## Data collection 
-
-We used the AlphaVantage API to collect the time series (daily) of each stock. For company news, we used the Stock News API. Locally, the data has been stored in a **Postgresql** database but for deployment purposes, we imported all the information into a **SQLite** database. 
-
 ### Preprocessing
 
-We did an Exploratory Data Analysis in the **data_wrangling/preparation_dataset.ipynb** notebook.
+We did an Exploratory Data Analysis in the **serie.ipynb** notebook.
 We used the **MSFT** stock to understand how to prepare the dataset for an LSTM model.
 
 ### Machine Learning
