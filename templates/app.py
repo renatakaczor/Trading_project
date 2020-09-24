@@ -8,4 +8,3 @@ def home():
     return "<h1>Stock Price.</p>"
  
 app.run()
-
