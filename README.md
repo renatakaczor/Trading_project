@@ -19,11 +19,11 @@ The application is available [here](https://trading-app-simplon.herokuapp.com/).
 ### Preprocessing
 
 We did an Exploratory Data Analysis in the **serie.ipynb** notebook.
-We used the **MSFT** stock to understand how to prepare the dataset for an LSTM model.
+
 
 ### Machine Learning
 
-We compared a 1-hidden-layer LSTM and a 1-hidden-layer Bidirectional LSTM. We observed the results are slightly better with a simple LSTM so we trained and saved the simple model for each stock.
+ We observed the results are slightly better with a simple LSTM so we trained and saved the simple model for each stock.
 
 
 ### Download project
