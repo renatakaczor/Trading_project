@@ -14,7 +14,7 @@ The main goal of our app is to predict if a stock price is about to increase or 
 
 ## Heroku Deployment
 
-The application is available [here](https://trading-app-simplon.herokuapp.com/). 
+The application is available 
 
 ### Preprocessing
 

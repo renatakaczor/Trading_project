@@ -1,0 +1,48 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Trading Project</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <title>
+    Trading Project
+  </title>
+  
+</head>
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+
+<body>
+    <div class="wrapper">
+        <div class="inner">
+            <form id="input-form" class="input-form" action="/result_html" method="post">
+                <h3>Trading project</h3>
+                <div class="form-wrapper">
+                    <p>Who buy more than other </p>
+                </div>
+                <div class="form-wrapper">
+                    <textarea id="input_text" name="input_text" placeholder="Please answer"></textarea>
+                </div>
+                <button type="submit" class="pred-btn">Go</button>
+
+                <br/>
+
+                <div class="form-wrapper">
+                    <p id="pred_text"></p>
+                    
+                </div>
+
+                
+            </form>
+            
+          
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}
